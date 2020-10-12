@@ -23,3 +23,19 @@ The following are the summary statistics of the suspension coil dataset grouped 
 
 In total, the variance of the suspension coils meets design specifications as it does not exceed 100lbs. However, the variance of the suspension coils in Lot 3 is 220, which is higher than 100, and does not meet the design specifications. The other lots meet specifications as their variance is less than 100.
 
+## T-Tests on Suspension Coils
+
+The null hypothesis for these T-Tests is there is no statistical difference between the observed sample mean and the population mean of 1500lbs/sq-inch.
+
+The T-Test for the whole suspension coil dataset fails to reject the null hypothesis.
+![t-test1](/Results/coils_dataset_t-test.png)
+
+The T-Test for Lot 1 fails to reject the null hypothesis.
+![t-test2](/Results/coils_lot1_t-test.png)
+
+The T-Test for Lot 2 fails to reject the null hypothesis.
+![t-test3](/Results/coils_lot2_t-test.png)
+
+The T-Test for Lot 3 fails to reject the null hypothesis.
+![t-test4](/Results/coils_lot3_t-test.png)
+
